@@ -1,0 +1,21 @@
+# Dependencias y builds
+node_modules/
+dist/
+
+# Variables de entorno (nunca subir)
+.env
+.env.*
+!.env.example
+
+# Configuración local de Claude Code
+.claude/settings.local.json
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Documentos temporales de Office
+~$*

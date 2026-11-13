@@ -66,7 +66,12 @@ cd frontend
 npm run test:e2e        # arranca el servidor solo y ejecuta todo (~1.5 min)
 npm run test:e2e:ui     # modo visual, para ver cada paso
 npx playwright show-report
+
+# Contra el despliegue en producción (no arranca servidor local):
+BASE_URL=https://frontend-tau-five-17.vercel.app npx playwright test
 ```
+
+**App desplegada:** https://frontend-tau-five-17.vercel.app (Vercel; cada push a `main` redespliega).
 
 | Archivo | Qué comprueba |
 |---|---|
